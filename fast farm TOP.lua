@@ -119,6 +119,6 @@ end
 task.spawn(function()
     while true do
         FarmBreakables()
-        task.wait(1)
+        task.wait()
     end
 end)
